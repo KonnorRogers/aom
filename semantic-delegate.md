@@ -70,21 +70,6 @@ However, because of the encapsulation provided by the shadow root,
 the `<input>` is not able to be refer to or be referred to by
 elements outside the shadow root.
 
-<!--
-## Non-goals
-
-[If there are "adjacent" goals which may appear to be in scope but aren't,
-enumerate them here. This section may be fleshed out as your design progresses and you encounter necessary technical and other trade-offs.]
-
-## User research
-
-[If any user research has been conducted to inform the design choices presented
-discuss the process and findings. 
-We strongly encourage that API designers consider conducting user research to
-verify that their designs meet user needs and iterate on them,
-though we understand this is not always feasible.]
-
--->
 
 ## Semantic delegate API
 
@@ -224,51 +209,6 @@ such that it becomes more manageable.
 
 I'm not sure why we'd do this, but it could be a method on `shadowRoot`
 rather than an attribute.
-
-
-<!--
-## Detailed design discussion
-
-### [Tricky design choice #1]
-
-[Talk through the tradeoffs in coming to the specific design point you want to make.]
-
-```js
-// Illustrated with example code.
-```
-
-[This may be an open question,
-in which case you should link to any active discussion threads.]
-
-### [Tricky design choice 2]
-
-[etc.]
-
-## Considered alternatives
-
-[This should include as many alternatives as you can,
-from high level architectural decisions down to alternative naming choices.]
-
-### [Alternative 1]
-
-[Describe an alternative which was considered,
-and why you decided against it.]
-
-### [Alternative 2]
-
-[etc.]
-
-## Stakeholder Feedback / Opposition
-
-[Implementors and other stakeholders may already have publicly stated positions on this work. If you can, list them here with links to evidence as appropriate.]
-
-- [Implementor A] : Positive
-- [Stakeholder B] : No signals
-- [Implementor C] : Negative
-
-[If appropriate, explain the reasons given by other implementors for their concerns.]
-
--->
 
 ## References & acknowledgements
 
