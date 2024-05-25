@@ -61,6 +61,9 @@ I have been referring to it as the "semantic delegate" pattern.
 - [Polymer `<paper-input>`](https://github.com/PolymerElements/paper-input/blob/master/paper-input.js#L171) - interestingly, this wraps an `<iron-input>` which _decorates_ an `<input>`
 - [Spectrum `<sp-checkbox>`](https://opensource.adobe.com/spectrum-web-components/components/checkbox/) which wraps an `<input type="checkbox">`
 - [Spectrum `<sp-action-menu>`](https://opensource.adobe.com/spectrum-web-components/components/action-menu/) which wraps a `<sp-action-button>`
+- [Shoelace `<sl-input>`](https://github.com/shoelace-style/shoelace/blob/c31d4f5855a504a687642697c7e54971028f254b/src/components/input/input.component.ts#L461-L465) wraps an `<input>`
+- [Shoelace `<sl-textarea>`](https://github.com/shoelace-style/shoelace/blob/c31d4f5855a504a687642697c7e54971028f254b/src/components/textarea/textarea.component.ts#L346) wraps a `<textarea>`
+- [Shoelace `<sl-button>`](https://github.com/shoelace-style/shoelace/blob/c31d4f5855a504a687642697c7e54971028f254b/src/components/button/button.component.ts#L259-L264) wrap both `<a>` and `<button>` depending on if an `href` is supplied.
 
 > Note: I use the term _"wrapping"_ to indicate a custom element which "bundles" an element inside its shadow root, so that an author using the custom element can simply use it, like `<fancy-input>`.
 >
